@@ -12,9 +12,12 @@ public class Ex4_ArrayMultiDimensional {
                 M[i][j] = random.nextInt(9);
             }
         }
-
-        for (:) {
-
+        System.out.println("Matriz: ");
+        for (int[] linha : M) {
+            for (int elementoDaColuna:linha) {
+                System.out.print(elementoDaColuna + " ");
+            }
+            System.out.println();
         }
     }
 }
